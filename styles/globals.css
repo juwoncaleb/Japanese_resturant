@@ -1,0 +1,316 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.hero_text {
+  text-align: center;
+  flex-direction: column;
+  margin-bottom: 400px;
+}
+
+.hero_subtext {
+  font-size: 35px;
+}
+
+.hero_mainText {
+  margin-top: 5px;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.hero_mainText_2 {
+  margin-top: 10px;
+  font-size: 64px;
+  font-weight: 700;
+  background-color: rgb(255, 37, 37);
+}
+
+.hero2_img {
+  height: 1000px;
+}
+
+.knife {
+  height: 600px;
+}
+
+.second_page_book {
+  margin-top: 300px;
+}
+
+.second_page_book_head {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.second_page_book_sub {
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.second_page_text {
+  margin-top: 70px;
+}
+
+.second_page_tex {
+  margin-top: 70px;
+  z-index: 2;
+}
+
+.second_page_book_btn {
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  border-radius: 7px;
+  margin-top: 40px;
+  width: 220px;
+  height: 55px;
+  font-weight: 500;
+}
+
+.menu_item {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.noodles_black {
+  height: 700px;
+}
+
+.start_desert {
+  height: 350px;
+}
+
+.fodd {
+  height: 250px;
+}
+
+.menu_item {
+  margin-top: 150px;
+}
+
+.menu_book_btn {
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  border-radius: 7px;
+  width: 220px;
+  height: 55px;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.menu_text {
+  font-size: 18px;
+}
+
+.dish {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 150px;
+}
+
+.f1 {
+  height: 95px;
+  margin-left: 190px;
+  position: relative;
+  top: 450px;
+}
+
+.chicken {
+  height: 200px;
+  z-index: 2;
+}
+
+.stick_one {
+  height: 500px;
+  z-index: 0;
+  position: absolute;
+  transform: rotate(20deg);
+}
+
+.zuko {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 100px;
+}
+
+.stick_two {
+  z-index: 1;
+  height: 500px;
+  transform: rotate(-5deg);
+  position: absolute;
+}
+
+.chop {
+  position: relative;
+}
+
+.stick_item {
+  position: relative;
+}
+
+.cook {
+  height: 1000px;
+  z-index: 2;
+}
+
+.banner {
+  z-index: 1;
+}
+
+.books {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.frame {
+  height: 400px;
+}
+
+.curve {
+  position: relative;
+  bottom: 200px;
+}
+
+.na {
+  z-index: 5;
+}
+
+.photo {
+  z-index: 4;
+  position: relative;
+  left: 70px;
+}
+
+.peace {
+  z-index: 4;
+  position: relative;
+  right: 70px;
+}
+
+.fox {
+  position: relative;
+  right: 150px;
+  z-index: 3;
+}
+
+.catty {
+  position: relative;
+  left: 150px;
+  z-index: 3;
+}
+
+.items {
+  overflow: hidden;
+  position: relative;
+}
+
+.sword {
+  height: 700px;
+  position: absolute;
+}
+
+.test {
+  position: relative;
+}
+
+.swords {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 20;
+  margin-top: 150px;
+}
+
+.bot {
+  display: flex;
+  justify-content: center;
+}
+
+.small {
+  width: 100px;
+}
+
+.big {
+  width: 200px;
+}
+
+.cha {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.feast {
+  font-size: 60px;
+  font-weight: 700;
+  margin-top: 70px;
+}
+
+.carousel {
+  overflow: hidden;
+  margin-top: 100px;
+}
+
+.fr {
+  height: 300px;
+}
+
+.input_bar {
+  width: 250px;
+  height: 50px;
+  border: 3px solid black;
+}
+
+.newsletter {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 130px;
+}
+
+.subs {
+  text-align: center;
+}
+
+.sub_btn {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  width: 150px;
+}
+
+.subscribe {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.line {
+  width: 100%;
+  border: 3px solid black;
+}
+
+.footer_head {
+  font-size: 27px;
+  font-weight: 700;
+  margin-bottom: 17px;
+  margin-top: 70px;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  margin-top: 10px;
+}
+
+.header_element {
+  margin-right: 45px;
+  margin-top: 30px;
+  font-size: 17px;
+  font-weight: 500;
+}/*# sourceMappingURL=globals.css.map */
