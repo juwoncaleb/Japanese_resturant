@@ -8,7 +8,7 @@ export default function Header() {
                 <p className='header_element'>BOOKINGS</p>
                 <p className='header_element'>FOR GUEST</p>
             </div>
-            <img className='logo' src='./home/lg3.png' />
+            <img className='logo' src="./lg5.png" />
             <div className='flex justify-around'>
                 <p className='header_element'>OUR STORY</p>
                 <p className='header_element'>CONTACT-US</p>
