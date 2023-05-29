@@ -394,4 +394,45 @@
   font-size: 18px;
   font-weight: 700;
   width: 500px;
+}
+
+.chinesse {
+  height: 100px;
+  margin-top: 30px;
+}
+
+.story_head_text {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.story_sub_text {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.welcome_cult {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.story_main_text {
+  max-width: 400px;
+  margin-left: 200px;
+}
+
+.container {
+  position: relative;
+}
+
+.moving_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.barsr {
+  position: relative;
+  z-index: 1;
 }/*# sourceMappingURL=globals.css.map */
