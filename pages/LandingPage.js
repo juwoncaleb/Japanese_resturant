@@ -159,9 +159,6 @@ export default function LandingPage() {
           <div  >
             <img src="./fr7.webp" />
           </div>
-          <div  >
-            <img src="./fr8.webp" />
-          </div>
         </Slider>
       </div>
       <div className="flex justify-around newsletter">
