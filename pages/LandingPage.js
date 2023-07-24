@@ -17,7 +17,7 @@ export default function LandingPage() {
   return (
     <div>
       <Header />
-      <div className='flex justify-around '>
+      <div className='flex hero_land  justify-around '>
         <img className='mon' src='https://ik.imagekit.io/ioj0dl8lm/monster.svg?updatedAt=1682811656521' />
         <div className='hero_text' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', }}>
           <p className='hero_subtext'>You have watched it, now you can taste it</p>
@@ -27,7 +27,7 @@ export default function LandingPage() {
 
         <img className='mon' src='https://ik.imagekit.io/ioj0dl8lm/boy.svg?updatedAt=1682811631584' />
       </div>
-      <div className='flex second_page justify-between '>
+      <div className='grid grid-cols-2 second_page justify-between '>
         <div className='flex second_page_book justify-between '>
           <img className='knife' src='./knife.png' />
           <div className='second_page_text'>
@@ -46,10 +46,12 @@ export default function LandingPage() {
         <img className='hero2_img' src='https://ik.imagekit.io/ioj0dl8lm/second_frame.webp?updatedAt=1682811877648' />
       </div>
       <div className='flex justify-between menu_item'>
-        <img className='noodles_black' src='./noodle_black.webp' />
-        <img className='noodles_black' src='./ramen.webp' />
-        <div>
-          <div className=''>
+        <div className="grid grid-cols-2 gap-6">
+          <img className='noodles_black' src='./noodle_black.webp' />
+          <img className='noodles_black' src='./ramen.webp' />
+        </div>
+        <div className="nod_head">
+          <div className='ml-4'>
             <p className='second_page_book_head'>GATHER IN</p>
             <p className='second_page_book_head'>GOOD COMPANY</p>
             <div className='menu_text'>
@@ -61,23 +63,20 @@ export default function LandingPage() {
               BOOK YOURSELF IN
             </button>
           </div>
-          <div className='flex justify-around'>
+          <div className='grid grid-cols-2 gap-2  ml-6'>
             <img className='start_desert' src='./desert.webp' />
             <img className='start_desert' src='./start.webp' />
           </div>
         </div>
       </div>
-      <div className='flex justify-around dish'>
+      <div className='grid grid-cols-2 dish'>
         <img className='fodd' src='./dishes.webp' />
         <img className='fodd' src='./cat.webp' />
         <img className='fodd' src='./toro.webp' />
         <img className='fodd' src='./noodls.webp' />
       </div>
       <div className='zuko flex justify-between'>
-        {/* <div className='chop'>
-          <img className='c1' src='./stick.png' />
-          <img className='c2' src='./stick.png' />
-        </div> */}
+       
 
         <div className='second_page_tex'>
           <p className='second_page_book_head'>GATHER IN</p>
@@ -100,7 +99,7 @@ export default function LandingPage() {
         <p className='books'>FRIEND , OR PLANNING A HOLIAY PARTY, WE ARE</p>
         <p className='books'>SURE WE CAN ACCOMMODATE YOU</p>
         <div className='bot'>
-          <button className='second_page_book_btn '>
+          <button className='second_page_book_btn zip '>
             BOOK YOURSELF IN
           </button>
         </div>
@@ -117,13 +116,10 @@ export default function LandingPage() {
 
           </div>
           <div className='flex swords  justify-center'>
-            <img className='sword' src='./sword1.png' />
-            <img className='sword' src='./sword.png' />
+            <img className='sword mr-40' src='./sword1.png' />
+            <img className='sword ml-40' src='./sword.png' />
           </div>
-          {/* <div className='flex swords justify-center'>
-            <img className='sword' src='./sword1.png' />
-            <img className='sword' src='./sword.png' />
-          </div> */}
+
         </div>
       </div>
       <div className='cha'>
@@ -132,8 +128,8 @@ export default function LandingPage() {
           <img className='small' src='./l2.webp' />
         </div>
         <div className='flex justify-around'>
-          <img className='big mr-14' src='./l3.webp' />
-          <img className='big ml-14' src='./l4.webp' />
+          <img className='big md:mr-14 mr-20' src='./l3.webp' />
+          <img className='big md:ml-14 ml-20' src='./l4.webp' />
         </div>
       </div>
       <div>
@@ -167,10 +163,10 @@ export default function LandingPage() {
         <div className="subs">
           <p className="subscribe">SUBSCRIBE TO OUR NEWSLETTER</p>
           <p className="subscribe">GET LATEST NEWS AND UPDATES</p>
-          <div className="flex mt-10">
+          <div className="flex inpu_barr">
             <input className="input_bar" />
             <input className="input_bar ml-4" />
-            <button className='sub_btn ml-4'>
+            <button className='sub_btn md:ml-4 ml-1'>
               SUBSCRIBE
             </button>
           </div>
@@ -178,7 +174,7 @@ export default function LandingPage() {
         <img className="fr" src="./chan.webp" />
 
       </div>
-    <Footer/>
+      <Footer />
     </div>
   )
 }
